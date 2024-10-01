@@ -13,9 +13,9 @@
 - `data/final_data/baseline`: trained baseline models with the best performance.
 
 ## Weibo check-in data
-Getting Weibo check-in data requires the use of the Weibo API: https://open.weibo.com[https://open.weibo.com]
+Getting Weibo check-in data requires the use of the Weibo API: https://open.weibo.com.
 
-The URL to create a task to retrieve historical data is https://c.api.weibo.com/2/search/statuses/historical/create.json[https://c.api.weibo.com/2/search/statuses/historical/create.json]
+The URL to create a task to retrieve historical data is https://c.api.weibo.com/2/search/statuses/historical/create.json.
 
 - Search parameter setting
   - Shanghai, 2018: "province": "31", "city": "31", "starttime": "1514736000000", "endtime": "1546271999000"
