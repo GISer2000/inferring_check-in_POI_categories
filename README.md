@@ -11,6 +11,7 @@
 - `data/final_data/dataset_torch`: the dataset used for model training has been done to divide the training set and validation set. If the dataset has ‘_bert’, it means the default bert model encodes text, otherwise it is the fine-tuned bert model.
 - `data/final_data/model`: trained GCN_RES models with the best performance.
 - `data/final_data/baseline`: trained baseline models with the best performance.
+- `data/final_data/other`: stores the verification results of all models.The four indicators include accuracy, macro-precision, macro-recall and macro-f1.
 
 ## Weibo check-in data
 Getting Weibo check-in data requires the use of the Weibo API: https://open.weibo.com.
