@@ -24,3 +24,23 @@ The URL to create a task to retrieve historical data is https://c.api.weibo.com/
   - Suzhou, 2018: "province": "32", "city": "5", "starttime": "1546272000000", "endtime": "1577807999000"
 
  **Note**: the maximum time interval between the start and end of each task cannot exceed one month.
+
+## Installation
+
+pip install -r requirements.txt
+
+## Training
+
+Use `train.py` to train the model. You can start training by entering the dataset name in the main function. The name of the dataset: **'shanghai_2018'**, **'shanghai_2019'** and **'suzhou_2018'**.
+
+```python
+python train.py 
+```
+
+## Testing
+
+`test.py` is used to evaluate the trained model. Load the trained model and dataset. Output the confusion matrix and a csv file containing the four metrics (accuracy, macro-precision, macro-recall and macro-f1). Enter the dataset name in the main function to automatically match the trained model. The name of the dataset: **'shanghai_2018'**, **'shanghai_2019'** and **'suzhou_2018'**.
+
+```python
+python test.py 
+```
